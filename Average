@@ -1,0 +1,16 @@
+import java .utill.Scanner;
+public class Average
+{
+public static void main(string[]args)
+{
+Scanner scan=new Scanner(system.in);
+int x,y,sum;
+float avg;
+System.out.print("enter two numbers");
+x=scan.nextInt();
+y=scan.nextInt();
+sum=x+y;
+avg=sum/2.0;
+System.out.print("sum and avg is :"+sum+"and "+avg);
+}
+}
