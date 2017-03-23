@@ -1,0 +1,15 @@
+import java.utill.scanner;
+public class Area
+{
+public static void man(strin[]args)
+{
+Scanner scan = new scanner(system.in);
+float base,height;
+int area;
+System.out.print("Ener height and base");
+height=scan.nextFloat();
+base=scan.nextFloat();
+area=height*base;
+System.out.print("Area is:"+area);
+}
+}
