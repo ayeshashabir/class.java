@@ -1,0 +1,13 @@
+import java.utill.Scanner;
+public class Fahrenheight
+{
+public static void main (string[]args)
+{
+Scanner scan = new scanner(system.in);
+float f,c;
+System.out.print("enter a celcius");
+c=scan.nextFloat();
+f=9.0/5.0*c+32;
+System.out.print("fahrenheight is ="+f);
+}
+}
