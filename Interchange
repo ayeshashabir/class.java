@@ -1,0 +1,18 @@
+import java .utill.Scanner;
+public class Interchange
+{
+public static void main (string[]args)
+{
+Scanner scan=new scanner(syatem.in);
+int a,b,temp;
+system.out.print("Enter two numbers");
+a=scan.nextInt();
+b=scan.nextInt();
+temp=a;
+a=b;
+b=temp;
+System.out.print("after interchanging the numbers are:" +a+ "and"+b);
+}
+}
+
+
