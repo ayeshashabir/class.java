@@ -1,0 +1,13 @@
+import java.utill.Scanner;
+public class Conversion
+{
+public static void main(string[]args)
+{
+Scanner scan=new Scanner(system.in);
+float inch,mm;
+System.out.print("enter a milimeter");
+mm=scan.nextFloat();
+inch=mm/25.4;
+System.out.print("the conversion of milimeter into inch is ="+inch);
+}
+}
